@@ -1,0 +1,75 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: dodgerblue;
+}
+
+.flex-item {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+#c {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex1 {
+    font-size: 20px;
+    color: white;
+}
+
+.navbar {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid rgb(2, 94, 180);
+    border-radius: 40px;
+    margin-left: 15ps;
+    margin-right: 15px;
+    margin-top: 10;
+    margin-bottom: 10px;
+    border-color: rgb(141, 7, 202);
+}
+
+a {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    font-size: 25px;
+    margin-left: 15ps;
+    margin-right: 15px;
+    background-color: rgb(125, 28, 216);
+    color: white;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(226, 172, 172);
+    justify-content: space-evenly;
+}
+
+.flex2 {
+    flex-direction: column;
+}
